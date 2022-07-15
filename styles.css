@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: none;
+  border: 0;
+}
+body {
+  display: flex;
+}
+
+div,
+.input {
+  border: solid 1px black;
+}
+.etch-container {
+  width: 960px;
+  height: 960px;
+  display: flex;
+  flex-direction: column;
+}
+.row-container {
+  display: flex;
+  flex: 1;
+}
+.square {
+  flex: 1;
+}
+.button-container {
+  border: none;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+button {
+  flex: 1;
+  border: solid 1px black;
+}
